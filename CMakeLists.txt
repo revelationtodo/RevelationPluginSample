@@ -4,12 +4,14 @@ project(RevelationPluginSample)
 
 find_package(Qt6 COMPONENTS Widgets REQUIRED)
 
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTOMOC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(jsoncpp CONFIG REQUIRED)
 
-add_library(${PROJECT_NAME} SHARED 
+add_library(${PROJECT_NAME} SHARED
 			dllmain.cpp
 
 			RevelationPluginSampleInterface.cpp
