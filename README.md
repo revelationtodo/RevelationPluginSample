@@ -15,7 +15,7 @@ This repository contains a sample plugin for the **Revelation** todo software. I
 
    ```cmd
    cd Revelation/Source
-   https://github.com/revelationtodo/RevelationPluginSample.git
+   git clone https://github.com/revelationtodo/RevelationPluginSample.git
    ```
 
 3. **Build Revelation**
